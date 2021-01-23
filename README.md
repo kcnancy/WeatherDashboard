@@ -1,6 +1,8 @@
 # WeatherDashboard
 Weather Dashboard version 2
 homework #6
+This is version 2 because my original repo had a corrupted index file and when deployed only the Readme would appear on the webpage. 
+The URL for the repo and deployment were both submitted along with this repo and deployment URL for history visibility for the graders.
 
 ### Requirements and User Story
 
@@ -71,6 +73,7 @@ To check the current weather and 5 day forecast from a city in local storage the
 
 ## Candidates for Future Enhancements -
 - Include state name with city name to ensure correct location. 
+- Include a flag for severe weather alerts.
 
 
 
