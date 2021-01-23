@@ -61,7 +61,7 @@ var displayWeather = function(weather, searchCity){
   
    //create a span element to hold Humidity data
    var humidityEl = document.createElement("span");
-   humidityEl.textContent = "Humidity: " + weather.main.humidity + " %";
+   humidityEl.textContent = "Humidity: " + weather.main.humidity + "%";
    humidityEl.classList = "list-group-item"
 
    //create a span element to hold Wind data
@@ -167,7 +167,7 @@ var display5Day = function(weather){
 
        var forecastHumEl=document.createElement("span");
        forecastHumEl.classList = "card-body text-center";
-       forecastHumEl.textContent = "Humidity: " + dailyForecast.main.humidity + "  %";
+       forecastHumEl.textContent = "Humidity: " + dailyForecast.main.humidity + "%";
 
        //append to forecast card
        forecastEl.appendChild(forecastHumEl);
